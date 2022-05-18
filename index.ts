@@ -17,7 +17,7 @@ export const users: User[] = [
     }
 ];
 
-export function logPerson(user: User) {
+export function logPerson(user: User) {//teste de branch
     console.log(` - ${user.name}, ${user.age}`);
 }
 
