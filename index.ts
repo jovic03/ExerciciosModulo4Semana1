@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-export type User = {
-=======
 console.log('************************EXERCICIO 3 *****************************');
 console.log('');
 interface User {
@@ -11,7 +8,6 @@ interface User {
 }
 
 interface Admin {
->>>>>>> Stashed changes
     name:string;
     age: number;
     role?:string;
@@ -53,9 +49,4 @@ export function logPerson(person: Person) {
     console.log(` - ${person.name}, ${person.age}, ${additionalInformation}`);
 }
 
-<<<<<<< Updated upstream
-console.log('Users:');
-users.forEach(logPerson);
-=======
 persons.forEach(logPerson);
->>>>>>> Stashed changes
