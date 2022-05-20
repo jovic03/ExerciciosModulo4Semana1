@@ -1,8 +1,6 @@
-<<<<<<< Updated upstream
-=======
 console.log('************************EXERCICIO 2 *****************************');
 console.log('')
->>>>>>> Stashed changes
+
 interface User {
     name:string;
     age: number;
