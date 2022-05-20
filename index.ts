@@ -1,3 +1,6 @@
+console.log('************************EXERCICIO 1 *****************************');
+console.log('');
+
 export type User = {
     name:string;
     age: number;
