@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+console.log('************************EXERCICIO 2 *****************************');
+console.log('')
+>>>>>>> Stashed changes
 interface User {
     name:string;
     age: number;
@@ -39,4 +44,8 @@ export function logPerson(user: Person) {
     console.log(` - ${user.name}, ${user.age}`);
 }
 
+<<<<<<< Updated upstream
 persons.forEach(logPerson);
+=======
+persons.forEach(logPerson);
+>>>>>>> Stashed changes
